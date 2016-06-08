@@ -101,6 +101,7 @@
        writeNewTweet(message);
        if(e.keyCode == 13){
         $('#post').click();
+        // $('#textBox').val() = ''
         // $('#bVisitor').get(0).scrollIntoView();
        }
        e.preventDefault();    
@@ -110,7 +111,7 @@
     var loadUserTweets = function(username){
           
       var userTweets = streams.users[username];
-      var $body = $('.transboxUser');
+      var $body = $('.boxUser');
       $body.html('');
     
       //iterate through the user tweets and put the on the div
@@ -128,7 +129,7 @@
     $('.background').on('click', '.handle p', function(event){
       var username = $(this).text().slice(1);
       loadUserTweets(username);
-      $('.transboxUser').get(0).scrollIntoView();
+      $('.boxUser').get(0).scrollIntoView();
     });         
 });
         
