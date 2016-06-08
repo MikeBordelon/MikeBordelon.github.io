@@ -136,7 +136,7 @@ body {
   margin: 0px auto 0px auto;
 }
 
-.transbox1 {
+.box1 {
   float: right;
   width: 500px;
   height: 60px;
@@ -163,8 +163,8 @@ body {
   margin: 0px 0px 0px 60px;
 }
 
-.transbox2,.transbox3,.transbox4,
-.transbox5,.transbox6,.transbox7,.transboxVisitor {
+.box2,.box3,.box4,
+.box5,.box6,.box7,.boxVisitor {
   float: right;
   width: 500px;
   height: 60px;
@@ -182,7 +182,7 @@ body {
 #handle5,#handle6,#handle7,#handleVisitor {
   text-decoration: underline;
   float: left;
-  margin: 85px 0px 0px 70px;
+  margin: 85px 0px 0px 60px;
   font-size: 20px;
   color: #000000;
 }
@@ -193,7 +193,7 @@ body {
   margin: 0px 0px 0px 60px;
 }
 
-.transboxUser {
+.boxUser {
   float: right;
   width: 650px;
   height: 60px;
